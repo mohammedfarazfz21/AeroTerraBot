@@ -2,8 +2,6 @@
 
 AeroTerraBot is a complex, production-ready ROS 2 Humble workspace for a **Hybrid Morphing Autonomy Platform**. The unique robotics system is fully capable of dynamically transitioning between four distinct locomotion modes using `ros2_control`, a custom Transform Controller framework, and PX4 SITL physics simulation.
 
-![AeroTerraBot Execution Screenshots](screenshots/execution.png)
-
 ## 🌟 Locomotion Modes
 1. **WHEEL_MODE (0):** High-speed traversal using differential drive kinematics on 4 omni-directional wheels.
 2. **LEG_MODE (1):** High-elevation posture maintaining stability over difficult uneven terrains utilizing 8 active joint position controllers.

@@ -33,6 +33,3 @@ docker exec -it aeroterrabot_dev bash -c "source /opt/ros/humble/setup.bash && c
 ```bash
 docker exec -it -e DISPLAY=host.docker.internal:0 aeroterrabot_dev bash -c "source /opt/ros/humble/setup.bash && source install/setup.bash && ros2 launch aeroterrabot_bringup transition_demo.launch.py"
 ```
-
-## 📸 Screenshots
-Execution screenshots are captured manually and submitted within the `screenshots/` directory showcasing the drone soaring off standard terrain!
